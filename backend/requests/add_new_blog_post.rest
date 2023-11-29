@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpYSIsImlkIjoiNjRkOWQ1MDBjYjU5ZTRiODhkMjE5ODQ0IiwiaWF0IjoxNjkyMDgxOTIxLCJleHAiOjE2OTIwODU1MjF9.Toq1RRem5iVxPVkf-4QHL9O2hJA2M7QBvJVM6-xxWzk
+
+{
+  "title": "kirjaaa",
+  "author": "Poistettavaaa",
+  "url": "https://www.google.fi",
+  "likes":5
+}
